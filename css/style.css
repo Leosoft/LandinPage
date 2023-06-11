@@ -156,12 +156,17 @@ a:focus {
     z-index: 9;
 }
 
+.back-to-top:hover{
+    background-color: #EF233C;
+}
+
 .back-to-top i {
+
     color: black;
 }
 
 .back-to-top:hover i {
-    color: #414141;
+    color: black;
 }
 
 
