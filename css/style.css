@@ -258,7 +258,7 @@ a:focus {
 
 /*BACKGROUND DE SECCION CLIENTES*/
 .section{
-    background-color:#610a11!important;
+    background-color:#FFFFFF!important;
 }
 
 @media (max-width: 991.98px) {   
@@ -467,6 +467,8 @@ a:focus {
 /*******************************/
 /******* Section Header ********/
 /*******************************/
+
+
 .section-header {
     position: relative;
     margin-bottom: 45px;
@@ -835,6 +837,7 @@ a:focus {
 }
 
 .service .service-text h3 {
+    color: #FFFFFF;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -1043,7 +1046,7 @@ a:focus {
 /*******************************/
 
 .section-title{
-    color: white;
+    color: black;
 }
 
 .logoClaro{
