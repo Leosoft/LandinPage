@@ -11,6 +11,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 h1,
 h2, 
 h3, 
@@ -23,7 +25,7 @@ h1{
     font-size: 35px;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
-    color: #EF233C;
+    color: white;
 }
 h1:hover{
     color: black;
@@ -55,11 +57,11 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
-    background: #EF233C;
+    color: red;
+    background: #FFFFFF;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #FFFFFF;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -81,9 +83,9 @@ a:focus {
 }
 
 .btn:hover {
-    color: #EF233C;
+    color: yellow;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
+    box-shadow: inset 0 0 0 0 #FFFFFF;
     border-color: #EF233C;
 }
 .btn1:hover {
@@ -201,12 +203,13 @@ a:focus {
     background: #f8f9fa;
 }
 
+/*aca se modifica el color del navbar*/
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
         width: 100%;
         padding: 30px 60px;
-        background: transparent !important;
+        background: #d4360b !important;
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }
@@ -246,6 +249,11 @@ a:focus {
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
         color: #EF233C;
     }
+}
+
+/*BACKGROUND DE SECCION CLIENTES*/
+.section{
+    background-color:#610a11!important;
 }
 
 @media (max-width: 991.98px) {   
@@ -776,7 +784,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
-    background-color: #EF233C;
+    background-color: #a3183d;
 }
 
 .service .service-item {
@@ -806,7 +814,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #EF233C;
+    color: orangered;
     transition: .3s;
 }
 
@@ -858,7 +866,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
-    background-color: #EF233C;
+    background-color: #a3183d;
 }
 
 .portfolio #portfolio-filter {
@@ -877,10 +885,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #EF233C;
+    background: #18314F;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #18314F;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -953,10 +961,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #EF233C;
+    color: orangered;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 orangered;
+    border-color: orangered;
 }
 
 .portfolio #sendBehanceButton a{
@@ -1027,7 +1035,13 @@ a:focus {
 /*******************************/
 /*********** Clientes CSS **********/
 /*******************************/
+
+.section-title{
+    color: white;
+}
+
 .logoClaro{
+    background:#FFFFFF;
     width: 78%;
     aspect-ratio: 3/2;
     object-fit: contain;
@@ -1214,6 +1228,7 @@ a:focus {
 }
 
 
+
 /*******************************/
 /******* Testimonial CSS *******/
 /*******************************/
@@ -1221,7 +1236,7 @@ a:focus {
     position: relative;
     margin: 0px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: #a3183d;
 }
 
 .testimonial .container {
@@ -1406,80 +1421,7 @@ a:focus {
     margin-top:14px;
 }
 
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
 
-.blog .blog-item {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.blog .blog-img img {
-    width: 100%;
-    transition: .5s;
-}
-
-.blog .blog-item:hover img {
-    transform: scale(1.1);
-}
-
-.blog .blog-text {
-    position: relative;
-    padding: 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
-}
-
-.blog .blog-text h2 {
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    margin-top: 10px;
-    padding: 8px 15px;
-}
-
-.blog .blog-item a.btn i {
-    margin-left: 5px;
-}
-
-.blog .blog-meta {
-    position: relative;
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.blog .blog-meta p {
-    margin: 0 10px 0 0;
-    font-size: 13px;
-}
-
-.blog .blog-meta i {
-    color: #414141;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
 
 
 /*******************************/
@@ -1488,7 +1430,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: #a3183d;
 }
 
 .footer .container-fluid {
